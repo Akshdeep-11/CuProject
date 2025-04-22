@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sher e Punjab</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: black;
+            color: white;
+        }
+        header {
+            background-color: black;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            color: yellow;
+        }
+        nav {
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        nav a:hover {
+            color: white;
+        }
+        section {
+            padding: 20px;
+        }
+        .menu, .combo, .order {
+            margin-bottom: 30px;
+        }
+        .food-img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 10px;
+            margin: 10px 0;
+        }
+        footer {
+            background-color: black;
+            text-align: center;
+            padding: 15px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Sher-e-Panjab</h1>
+        <p>Authentic Punjabi Cuisine</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#combo">Combo Offers</a>
+        <a href="#order">Order Online</a>
+    </nav>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to Sher e Punjab, where we bring you the rich and spicy flavors of Punjab. Experience our traditional recipes passed down for generations.</p>
+        <img src="https://assets.onecompiler.app/43fgv333c/43fgvykst/delicious-food-table.jpg" alt="Punjabi Thali" class="food-img">
+    </section>
+    <section id="menu" class="menu">
+        <h2>Our Menu</h2>
+        <ul>
+            <li>Shahi Paneer</li>
+            <li>Paneer Tikka</li>
+            <li>Dal Makhani</li>
+            <li>Garlic Naan</li>
+            <li>Chole Bhature</li>
+            <li>Saag</li>
+            <li>Butter Chicken</li>
+            <li>Chicken Tikka</li>
+            <li>Chilly Chicken</li>
+        </ul>
+        <img src="https://assets.onecompiler.app/43fgv333c/43fgvykst/1j1p59bs4yx21.webp" alt="Shahi Paneer" class="food-img">
+    </section>
+    <section id="combo" class="combo">
+        <h2>Combo Offers</h2>
+        <p>Try our exclusive combos and save more!</p>
+        <ul>
+            <li>Veg Thali - ₹299</li>
+            <li>Non-Veg Thali - ₹399</li>
+            <li>Family Combo - ₹799</li>
+        </ul>
+        <img src="https://assets.onecompiler.app/43fgv333c/43fgvykst/download%20(1).jpg" alt="Thali" class="food-img">
+    </section>
+    <section id="order" class="order">
+        <h2>Order Online</h2>
+        <p>Call us at 98765-43210 or use our app to place your order.</p>
+        <img src="https://assets.onecompiler.app/43fgv333c/43fgvykst/ChatGPT%20Image%20Apr%2022,%202025,%2012_04_25%20AM.png" alt="Order Now" class="food-img">
+    </section>
+    <footer>
+        <p>&copy; 2025 Sher e Punjab. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
